@@ -56,7 +56,7 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
 
       - name: Download gem from build job
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: binary-gem
 
